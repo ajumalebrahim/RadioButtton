@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="top|center"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ajumal.radiobutton.MainActivity">
+    <RadioGroup
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <RadioButton
+            android:text="Leo"
+            android:id="@+id/RdBtnLeo"
+            android:checked="true"
+            android:layout_width="wrap_content"
+            android:onClick="rChanged"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:text="Mike"
+            android:onClick="rChanged"
+            android:id="@+id/RdBtnMike"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:text="Don"
+            android:onClick="rChanged"
+            android:id="@+id/RdBtnDon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:text="Raph"
+            android:id="@+id/RdBtnRaph"
+            android:onClick="rChanged"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RadioGroup>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/RdoImg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
